@@ -1,0 +1,66 @@
+
+/*-------TYPE SELECTORS----------*/
+
+* {
+  text-align: center;
+}
+
+html,
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: verdana, arial, sans-serif;
+  justify-content: center;
+}
+
+h1 {
+  margin: 0;
+  flex-grow: 2;
+}
+
+ul {
+ padding-left: 0
+}
+
+
+
+
+/*--------ClASS SELECTORS----------*/
+
+.main-header {
+  background-color: blue;
+  color: white;
+  display: flex;
+}
+
+.main-nav {
+  flex: 1 50%;
+}
+
+.main-nav li {
+  list-style-type: none;
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-footer {
+  background-color: blue;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  display: block
+  height: 100px;
+  width: 300px;
+  background: red;
+  border: 2px solid black;
+}
